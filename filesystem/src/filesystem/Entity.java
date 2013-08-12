@@ -24,6 +24,7 @@ public abstract class Entity {
 	}
 	
 	// Delete
+	// Exception "path not found" implemented in main() function.
 	public boolean delete() {
 		if (parent == null) {
 			return false;

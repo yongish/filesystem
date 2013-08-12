@@ -28,6 +28,7 @@ public class Folder extends Entity {
 		return size;
 	}
 
+	// Exception (path not found, path already exists) implemented in main().
 	public void addEntity(Entity entity) {
 		contents.add(entity);
 	}

@@ -24,5 +24,13 @@ public class Zip extends Entity {
 		return size/2;	// 1/2 sum of sizes of all entities it contains.
 	}
 
-
+	// Exception "path not found" implemented in main() function.
+	public boolean deleteEntity(Entity entity) {
+		return contents.remove(entity);
+	}
+	
+	// Exception (path not found, path already exists) implemented in main().
+	public void addEntity(Entity entity) {
+		contents.add(entity);
+	}
 }

@@ -14,7 +14,7 @@ public abstract class Entity {
 		if (parent == null) {
 			return name;
 		}
-		return parent.getFullPath() + "/" + name;
+		return parent.getFullPath() + "\\" + name;
 	}
 	
 	// Create
